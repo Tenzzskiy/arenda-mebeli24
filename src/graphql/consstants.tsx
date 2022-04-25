@@ -1,8 +1,9 @@
 import {gql} from "@apollo/client";
 export const address = 'Егорьевский проезд, 2Ас10';
 export const number = '8 999 999 99 99'
-export const GRAPHQL_ENDPOINT = 'https://0b18-188-126-35-179.eu.ngrok.io/graphql';
-export const LOCALHOST = 'https://0b18-188-126-35-179.eu.ngrok.io'
+export const REQUEST = 'https://323a-188-126-35-179.eu.ngrok.io'
+export const GRAPHQL_ENDPOINT = `${REQUEST}/graphql`;
+export const LOCALHOST = `${REQUEST}`
 export const FULL_ADDRESS = 'г. Москва, Егорьевский проезд, дом 1а, стр. 4'
 export const MAIL = '24am@bbb.rent'
 export const DOMAIN = 'arenda-mebeli24.ru'
